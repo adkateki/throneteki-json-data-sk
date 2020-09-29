@@ -149,5 +149,12 @@
         "packs": [
             "TTWDFL"
         ]
+    },
+    {
+        "id": "skcore",
+        "name": "SK Core Set",
+        "packs": [
+            "SKCore"
+        ]
     }
 ]
