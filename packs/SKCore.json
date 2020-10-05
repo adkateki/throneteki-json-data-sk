@@ -1,11 +1,11 @@
 {
-    "cgdbId": 1,
+    "cgdbId": null,
     "code": "SKCore",
     "name": "SK Core Set",
-    "releaseDate": "2020-10-10",
+    "releaseDate": null,
     "cards": [
         {
-            "code": "SK01001",
+            "code": "50001",
             "type": "plot",
             "name": "An Unshakable Mind",
             "octgnId": "",
@@ -25,7 +25,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01002",
+            "code": "50002",
             "type": "plot",
             "name": "A War Without Banners",
             "octgnId": "",
@@ -46,7 +46,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01003",
+            "code": "50003",
             "type": "character",
             "name": "King's Landing Smuggler",
             "octgnId": "",
@@ -63,12 +63,12 @@
             "traits": [
                 "Smuggler"
             ],
-            "text": "<b>Interrupt:</b> When King's Landing Smuggler leaves play, choose another card in play. Move 1 gold from the treasury to that card.",
+            "text": "<b>Interrupt:</b> When King's Landing Smuggler leaves play, choose another card in play. Place 1 gold from the treasury to that card.",
             "deckLimit": 3,
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01004",
+            "code": "50004",
             "type": "location",
             "name": "Gulltown",
             "octgnId": "",
@@ -85,7 +85,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01005",
+            "code": "50005",
             "type": "character",
             "name": "Beron Blacktyde",
             "octgnId": "",
@@ -109,7 +109,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01006",
+            "code": "50006",
             "type": "location",
             "name": "Silence",
             "octgnId": "",
@@ -121,12 +121,12 @@
             "traits": [
                 "Warship"
             ],
-            "text": "While you control Euron Greyjoy, he gains insight.\n<b>Interrupt:</b> When a character you control discard a card using pillage, kneel Silence to discard 2 cards instead",
+            "text": "While you control Euron Crow's Eye, he gains insight.\n<b>Interrupt:</b> When a character you control discard a card using pillage, kneel Silence to discard 2 cards instead",
             "deckLimit": 3,
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01007",
+            "code": "50007",
             "type": "attachment",
             "name": "Lady Whiskers",
             "octgnId": "",
@@ -143,7 +143,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01008",
+            "code": "50008",
             "type": "event",
             "name": "Lion's Retribution",
             "octgnId": "",
@@ -152,12 +152,12 @@
             "loyal": true,
             "cost": 1,
             "traits": [],
-            "text": "<b>Reaction:</b> After you win an [intrigue] challenge by 5 or more STR, look at an opponent's hand. Then, choose and discard 1 card from that hand. If that card is a character, place it in its owner's dead pile instead.",
+            "text": "<b>Reaction:</b> After you win an [intrigue] challenge by 5 or more STR, look at an opponent's hand. Then, choose and discard 1 card from that hand. If that card is a character, place it in its owner's dead pile instead.(Max 1 per challenge.)",
             "deckLimit": 3,
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01009",
+            "code": "50009",
             "type": "character",
             "name": "Obella Sand",
             "octgnId": "",
@@ -181,7 +181,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01010",
+            "code": "50010",
             "type": "location",
             "name": "Brimstone",
             "octgnId": "",
@@ -198,7 +198,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01011",
+            "code": "50011",
             "type": "character",
             "name": "Clubfoot Karl",
             "octgnId": "",
@@ -221,7 +221,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01012",
+            "code": "50012",
             "type": "location",
             "name": "Greyguard",
             "octgnId": "",
@@ -238,7 +238,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01013",
+            "code": "50013",
             "type": "character",
             "name": "Bolton Marauders",
             "octgnId": "",
@@ -262,7 +262,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01014",
+            "code": "50014",
             "type": "attachment",
             "name": "Grey Wind",
             "octgnId": "",
@@ -279,7 +279,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01015",
+            "code": "50015",
             "type": "character",
             "name": "Ser Vortimer Crane",
             "octgnId": "",
@@ -303,7 +303,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01016",
+            "code": "50016",
             "type": "attachment",
             "name": "Knight's Honor",
             "octgnId": "",
@@ -320,7 +320,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01017",
+            "code": "50017",
             "type": "character",
             "name": "Grey Worm",
             "octgnId": "",
@@ -344,7 +344,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01018",
+            "code": "50018",
             "type": "character",
             "name": "Shavepates",
             "octgnId": "",
@@ -367,7 +367,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01019",
+            "code": "50019",
             "type": "location",
             "name": "Smuggling Vessel",
             "octgnId": "",
@@ -384,7 +384,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01020",
+            "code": "50020",
             "type": "event",
             "name": "The Support of the Iron Bank",
             "octgnId": "",
@@ -398,7 +398,7 @@
             "illustrator": "Unknown"
         },        
         {
-            "code": "SKSK01021",
+            "code": "50021",
             "type": "plot",
             "name": "Battle of Castle Black",
             "octgnId": "",
@@ -414,12 +414,12 @@
                 "War",
                 "Winter"
             ],
-            "text": "<b>When Revealed:</b> Each player chooses a challenge type and may initiate an additional challenge of the choosen type during the challenge phase.",
+            "text": "<b>When Revealed:</b> Each player chooses a challenge type and may initiate an additional challenge of the choosen type during the challenge phase until you reveal a new plot card.",
             "deckLimit": 2,
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01022",
+            "code": "50022",
             "type": "plot",
             "name": "Support for the Wall",
             "octgnId": "",
@@ -440,7 +440,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01023",
+            "code": "50023",
             "type": "character",
             "name": "Ser Vardis Egen",
             "octgnId": "",
@@ -464,7 +464,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01024",
+            "code": "50024",
             "type": "event",
             "name": "Not Today",
             "octgnId": "",
@@ -477,7 +477,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01025",
+            "code": "50025",
             "type": "attachment",
             "name": "Euron's Armor",
             "octgnId": "",
@@ -490,19 +490,19 @@
                 "Item",
                 "Valyrian Steel"
             ],
-            "text": "<i>Ironborn</i> character only.\nAttached character gains \"immune to opponent's events.\"\n<b>Interrupt:</b> When attached character would be killed, kneel Euron's Armor to save it.",
+            "text": "Unique [greyjoy] character only.\nImmune to events.\"\n<b>Interrupt:</b> When attached character would be killed or returned to hand, kneel Euron's Armor to save it.",
             "deckLimit": 3,
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01026",
+            "code": "50026",
             "type": "location",
             "name": "Foamdrinker",
             "octgnId": "",
             "quantity": 3,
             "unique": true,
             "faction": "greyjoy",
-			"loyal": false,
+            "loyal": false,
             "cost": 2,
             "traits": [
                 "Warship"
@@ -512,7 +512,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01027",
+            "code": "50027",
             "type": "character",
             "name": "Redsmiths",
             "octgnId": "",
@@ -535,7 +535,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01028",
+            "code": "50028",
             "type": "character",
             "name": "Ser Boros Blount",			
             "octgnId": "",
@@ -559,7 +559,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01029",
+            "code": "50029",
             "type": "character",
             "name": "Anders Yronwood",
             "octgnId": "",
@@ -584,7 +584,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01030",
+            "code": "50030",
             "type": "event",
             "name": "Manticore Venom",
             "octgnId": "",
@@ -600,7 +600,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01031",
+            "code": "50031",
             "type": "location",
             "name": "Deep Lake",
             "octgnId": "",
@@ -612,12 +612,12 @@
             "traits": [
                 "The North"
             ],
-            "text": "<b>Challenge Action:</b> Kneel Deep Lake to choose a character. Until the end of the phase, that character gains the [thenightswatch] affiliation.",
+            "text": "<b>Challenge Action:</b> Kneel Deep Lake to choose a character. Until the end of the phase, that character gains the [thenightswatch] affiliation and loses all other faction affiliations.",
             "deckLimit": 3,
             "illustrator": "Unknown"
         },		
         {
-            "code": "SK01032",
+            "code": "50032",
             "type": "event",
             "name": "The Light that Brings the Dawn",
             "octgnId": "",
@@ -631,7 +631,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01033",
+            "code": "50033",
             "type": "character",
             "name": "Rickard Karstark",
             "octgnId": "",
@@ -655,7 +655,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01034",
+            "code": "50034",
             "type": "location",
             "name": "Grey Barrowton",
             "octgnId": "",
@@ -672,7 +672,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01035",
+            "code": "50035",
             "type": "character",
             "name": "Willas Tyrell",
             "octgnId": "",
@@ -690,12 +690,12 @@
             "traits": [
                 "Lord"
             ],
-            "text": "Insight\n<b>Reaction:</b> After you draw a loyal card using insight, reveal it, and Willas Tyrell gains 1 power. (Max 1 per challenge.)",
+            "text": "Insight\n<b>Reaction:</b> After you draw a loyal card using insight, reveal it to have Willas Tyrell gain 1 power. (Max 1 per challenge.)",
             "deckLimit": 3,
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01036",
+            "code": "50036",
             "type": "location",
             "name": "Three Towers",
             "octgnId": "",
@@ -712,7 +712,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01037",
+            "code": "50037",
             "type": "character",
             "name": "Sons of the Harpy",
             "octgnId": "",
@@ -735,7 +735,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01038",
+            "code": "50038",
             "type": "location",
             "name": "Meereen's Pyramid",
             "octgnId": "",
@@ -752,7 +752,7 @@
             "illustrator": "Unknown"
         },
         {
-            "code": "SK01039",
+            "code": "50039",
             "type": "character",
             "name": "Gilbert Farring",
             "octgnId": "",
@@ -777,7 +777,7 @@
             "illustrator": "Unknow"
         },
         {
-            "code": "SK01040",
+            "code": "50040",
             "type": "event",
             "name": "One Realm, One God, One King",
             "octgnId": "",
