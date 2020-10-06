@@ -503,7 +503,7 @@
             "unique": true,
             "faction": "greyjoy",
             "loyal": false,
-            "cost": 2,
+            "cost": 1,
             "traits": [
                 "Warship"
             ],
