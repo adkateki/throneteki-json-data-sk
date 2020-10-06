@@ -657,12 +657,12 @@
         {
             "code": "50034",
             "type": "location",
-            "name": "Grey Barrowton",
+            "name": "Barrowton",
             "octgnId": "",
             "quantity": 3,
             "unique": true,
             "faction": "stark",
-			"loyal": true,
+            "loyal": true,
             "cost": 3,
             "traits": [
                 "The North"
