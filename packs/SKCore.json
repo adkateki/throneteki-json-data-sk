@@ -41,7 +41,7 @@
                 "Noble",
                 "War"
             ],
-            "text": "Each player's faction card cannot kneel.",
+            "text": "<b>When revealed:</b> Kneel each player's faction card",
             "deckLimit": 2,
             "illustrator": "Unknown"
         },
