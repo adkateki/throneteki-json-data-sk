@@ -80,7 +80,7 @@
                 "House Arryn",
                 "Gulltown"
             ],
-            "text": "Gulltown cannot be placed during setup.\n+1 Gold. +1 Reserve.",
+            "text": "+1 Income. +1 Reserve.",
             "deckLimit": 3,
             "illustrator": "Unknown"
         },
