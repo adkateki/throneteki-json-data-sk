@@ -80,7 +80,7 @@
                 "House Arryn",
                 "Gulltown"
             ],
-            "text": "+1 Income. +1 Reserve.",
+            "text": "+1 Income. -1 Initiative.",
             "deckLimit": 3,
             "illustrator": "Unknown"
         },
