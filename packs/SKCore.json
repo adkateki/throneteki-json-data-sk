@@ -802,7 +802,11 @@
       },
       {
          "code":"50042",
+<<<<<<< HEAD
          "type":"Plot",
+=======
+         "type":"plot",
+>>>>>>> 55694f2bd8ea7a9202d2c3f02381efe1e628e45a
          "name":"City Festival",
          "octgnId":"",
          "quantity":3,
@@ -897,7 +901,11 @@
          "quantity":3,
          "faction":"greyjoy",
          "loyal":true,
+<<<<<<< HEAD
          "cost":"x",
+=======
+         "cost":"X",
+>>>>>>> 55694f2bd8ea7a9202d2c3f02381efe1e628e45a
          "traits":[
             
          ],
@@ -949,7 +957,11 @@
       {
          "code":"50049",
          "type":"character",
+<<<<<<< HEAD
          "name":"Mellario of norvos",
+=======
+         "name":"Mellario of Norvos",
+>>>>>>> 55694f2bd8ea7a9202d2c3f02381efe1e628e45a
          "octgnId":"",
          "quantity":3,
          "unique":true,
@@ -1093,7 +1105,11 @@
       {
          "code":"50056",
          "type":"event",
+<<<<<<< HEAD
          "name":"We light the way",
+=======
+         "name":"We Light The Way",
+>>>>>>> 55694f2bd8ea7a9202d2c3f02381efe1e628e45a
          "octgnId":"",
          "quantity":3,
          "unique":false,
@@ -1114,7 +1130,11 @@
          "octgnId":"",
          "quantity":3,
          "unique":true,
+<<<<<<< HEAD
          "faction":"targaryen",
+=======
+         "faction":"tyrell",
+>>>>>>> 55694f2bd8ea7a9202d2c3f02381efe1e628e45a
          "loyal":false,
          "cost":6,
          "icons":{
@@ -1127,7 +1147,11 @@
             "Lord",
             "Mercenary"
          ],
+<<<<<<< HEAD
          "text":"Stealth. \n<b>Reaction:</b>After 1 or more [targaryen] cards are discarded from your hand by a card effect, draw 1 card. (Limit once per phase).",
+=======
+         "text":"Stealth. \n<b>Reaction:</b>After 1 or more cards are discarded from your hand, draw 1 card. (Limit once per phase).",
+>>>>>>> 55694f2bd8ea7a9202d2c3f02381efe1e628e45a
          "deckLimit":3,
          "illustrator":"Unknown"
       },
@@ -1176,7 +1200,11 @@
       {
          "code":"50060",
          "type":"attachment",
+<<<<<<< HEAD
          "name":"Crown of the iron throne",
+=======
+         "name":"Crown of the Iron Throne",
+>>>>>>> 55694f2bd8ea7a9202d2c3f02381efe1e628e45a
          "octgnId":"",
          "quantity":3,
          "unique":true,
