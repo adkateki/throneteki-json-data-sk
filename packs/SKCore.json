@@ -1127,7 +1127,7 @@
             "Lord",
             "Mercenary"
          ],
-         "text":"Stealth. \n<b>Reaction:</b>After 1 or more cards are discarded from your hand, draw 1 card. (Limit once per phase).",
+         "text":"Stealth. \n<b>Reaction:</b>After 1 or more [targaryen] cards are discarded from your hand by a card effect, draw 1 card. (Limit once per phase).",
          "deckLimit":3,
          "illustrator":"Unknown"
       },
