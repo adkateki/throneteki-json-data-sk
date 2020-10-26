@@ -1045,7 +1045,7 @@
             "House Reed",
             "The North"
          ],
-         "text":"<b>Action:</b>Kneel Greywater Watch to choose a stark character you control, and kneel that character to have it participate in the challenge on your side.",
+         "text":"<b>Action:</b>Kneel Greywater Watch to choose a [stark] character you control, and kneel that character to have it participate in the challenge on your side.",
          "deckLimit":3,
          "illustrator":"Unknown"
       },
