@@ -1098,7 +1098,7 @@
             "Knight",
             "Lord"
          ],
-         "text":"While you control 3 or more <i>The Reach</i> location, Moryn Tyrell gets +2 STR. \n<b>Reaction:</b>After Moryn Tyrell enters play, search your deck for a <i>The Reach</i> location, and add it to your hand. Shuffle your deck.",
+         "text":"Renown.\nWhile you control 3 or more <i>The Reach</i> location, Moryn Tyrell gets +2 STR. \n<b>Reaction:</b>After Moryn Tyrell enters play, search your deck for a <i>The Reach</i> location, and add it to your hand. Shuffle your deck.",
          "deckLimit":3,
          "illustrator":"Unknown"
       },
