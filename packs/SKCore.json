@@ -808,7 +808,7 @@
 	 "quantity": 1,
 	 "faction": "neutral",
 	 "traits": [],
-	 "text": "You cannot include more than 5 limited cards in your deck.\n<b>Reaction:</b> After you place 1 or more non-power token on a card, if it has 2 or less tokens of the same type on it, kneel your faction card to place 2 additional tokens of the same type. <b>Action:</b> Kneel your faction card to discard a token from a character you control.",
+	 "text": "You cannot include more than 5 limited cards in your deck.\n<b>Reaction:</b> After you place 1 or more non-power token on a card, if it has 2 or less tokens of that type  kneel your faction card to place 2 additional tokens of the same type. <b>Action:</b> Kneel your faction card to discard a token from a character you control.",
 	 "deckLimit": 1,
 	 "illustrator": ""
       },
