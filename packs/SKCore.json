@@ -966,6 +966,7 @@
          "quantity":3,
          "unique":true,
          "faction":"martell",
+         "loyal":true,
          "cost":6,
          "icons":{
             "military":false,
