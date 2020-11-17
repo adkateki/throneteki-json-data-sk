@@ -801,16 +801,18 @@
          "illustrator":"Unknown"
       },
       {
-	 "code": "50041",
-	 "type": "agenda",
-	 "name": "Moonsingers",
-	 "octgnId": "",
-	 "quantity": 1,
-	 "faction": "neutral",
-	 "traits": [],
-	 "text": "You cannot include more than 5 limited cards in your deck.\n<b>Reaction:</b> After you place 1 or more non-power token on a card, if it has 2 or less tokens of that type  kneel your faction card to place 2 additional tokens of the same type. <b>Action:</b> Kneel your faction card to discard a token from a character you control.",
-	 "deckLimit": 1,
-	 "illustrator": ""
+         "code":"50041",
+         "type":"agenda",
+         "name":"Moonsingers",
+         "octgnId":"",
+         "quantity":1,
+         "faction":"neutral",
+         "traits":[
+            
+         ],
+         "text":"You cannot include more than 5 limited cards in your deck.\n<b>Reaction:</b> After you place 1 or more non-power token on a card, if it has 2 or less tokens of that type  kneel your faction card to place 2 additional tokens of the same type. <b>Action:</b> Kneel your faction card to discard a token from a character you control.",
+         "deckLimit":1,
+         "illustrator":""
       },
       {
          "code":"50042",
@@ -1201,6 +1203,417 @@
          "text":"Unique [baratheon] character only. Attached character gains the <i>King</i> trait. Attached character contributes its STR to its controller total dominance even while kneeling.",
          "deckLimit":3,
          "illustrator":"Unknown"
+      },
+      {
+         "claim":1,
+         "code":"50061",
+         "deck_limit":1,
+         "faction_code":"neutral",
+         "flavor":"",
+         "illustrator":"Castlevania Lords of Shadows 2",
+         "income":3,
+         "initiative":4,
+         "is_loyal":false,
+         "is_unique":false,
+         "name":"City of Shadow",
+         "octgn_id":"",
+         "quantity":3,
+         "reserve":7,
+         "text":"<b>When Revealed:</b> Choose up to 2 cards in your hand and place them facedown in shadows with a shadow token on them. While those cards are in shadows, if they do not have the printed shadow keyword, they gain shadow (X). X is their printed card cost.",
+         "traits":[
+            "City.",
+            "Scheme."
+         ],
+         "type_code":"plot"
+      },
+      {
+         "claim":1,
+         "code":"50062",
+         "deck_limit":2,
+         "faction_code":"neutral",
+         "flavor":"",
+         "illustrator":"Unknown",
+         "income":4,
+         "initiative":6,
+         "is_loyal":false,
+         "is_unique":false,
+         "name":"The Hand's Reign",
+         "octgn_id":"",
+         "quantity":3,
+         "reserve":8,
+         "text":"<b>Forced Reaction:</b> After a player plays an event, that player's opponents may draw 1 card and gain 1 power for his or her faction.",
+         "traits":[
+            "Edict.",
+            "Kingdom."
+         ],
+         "type_code":"plot"
+      },
+      {
+         "code":"50063",
+         "type":"location",
+         "name":"Evenfall Hall",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"neutral",
+         "loyal":false,
+         "cost":2,
+         "traits":[
+            "House Tarth.",
+            "Westeros."
+         ],
+         "text":"<b>Reaction:</b>After you play a <i>Song</i> event, draw 1 card. (Limit twice per round).",
+         "deckLimit":3,
+         "illustrator":"Jordi Gonzalez"
+      },
+      {
+         "code":"50064",
+         "type":"attachment",
+         "name":"Big, Black Tomcat",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"neutral",
+         "loyal":false,
+         "cost":1,
+         "traits":[
+            "Cat."
+         ],
+         "text":"Non-loyal unique character with printed cost 3 or lower only. Ambush (2).\nAttached character gains a [power] icon and intimidate.<b>Forced Interrupt:</b> When the challenges phase ends, sacrifice Big, Black Tomcat.",
+         "deckLimit":3,
+         "illustrator":"Joshua Cairos"
+      },
+      {
+         "code":"50065",
+         "type":"character",
+         "name":"Falia Flowers",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"greyjoy",
+         "loyal":false,
+         "cost":2,
+         "icons":{
+            "military":false,
+            "intrigue":true,
+            "power":true
+         },
+         "strength":2,
+         "traits":[
+            "Bastard.",
+            "Companion."
+         ],
+         "text":"<b>Interrupt:</b>When a <i>Warship</i> location leaves play, sacrifice Falia Flowers to return that location to your hand instead of placing it in your discard pile.",
+         "deckLimit":3,
+         "illustrator":"Tatiana Hordiienko"
+      },
+      {
+         "code":"50066",
+         "type":"location",
+         "name":"Orkmont",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"greyjoy",
+         "loyal":true,
+         "cost":2,
+         "traits":[
+            "Iron Islands."
+         ],
+         "text":"<b>Interrupt:</b>When you compare initiative, kneel Orkmont to give your revealed plot card +1 initiative until the end of the phase (+3 initiative instead if that plot card has the <i>Winter</i> trait). Then, if you win initiative, draw 1 card from the bottom of your deck.",
+         "deckLimit":3,
+         "illustrator":"Olena Nemitkova"
+      },
+      {
+         "code":"50067",
+         "type":"character",
+         "name":"Host of the Lion",
+         "octgnId":"",
+         "quantity":3,
+         "unique":false,
+         "faction":"lannister",
+         "loyal":false,
+         "cost":6,
+         "icons":{
+            "military":true,
+            "intrigue":true,
+            "power":false
+         },
+         "strength":4,
+         "traits":[
+            "Army."
+         ],
+         "text":"Intimidate. No Attachments.\nWhile Host of the Lion is attacking an opponent with fewer cards in his or her hand than you, it gets +4 STR. <b>Action:</b>Pay 3 gold to stand Host of the Lion. (Limit twice per phase)",
+         "deckLimit":3,
+         "illustrator":"Stefan Kopinski"
+      },
+      {
+         "code":"50068",
+         "type":"attachment",
+         "name":"Boots",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"lannister",
+         "loyal":false,
+         "cost":1,
+         "traits":[
+            "Cat."
+         ],
+         "text":"Unique character with printed cost 3 or lower only. Ambush (1).\nAttached character gains a [military] icon and does not kneel when declared as an attacker in a [military] challenge.",
+         "deckLimit":3,
+         "illustrator":"Lisa Parker"
+      },
+      {
+         "code":"50069",
+         "type":"character",
+         "name":"Ser Myles Manwoody",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"martell",
+         "loyal":false,
+         "cost":4,
+         "icons":{
+            "military":true,
+            "intrigue":false,
+            "power":true
+         },
+         "strength":4,
+         "traits":[
+            "House Manwoody.",
+            "Knight."
+         ],
+         "text":"While you are not the first player, Ser Myles Manwoody does not kneel when declared as an attacker.",
+         "deckLimit":3,
+         "illustrator":"Jacob Garcia"
+      },
+      {
+         "code":"50070",
+         "type":"location",
+         "name":"Planky Town",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"martell",
+         "loyal":false,
+         "cost":1,
+         "traits":[
+            "Dorne."
+         ],
+         "text":"Bestow (3).\n<b>Action:</b> Discard 1 gold from Planky Town to choose an attachment you control. Return that attachment to its owner's hand.",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50071",
+         "type":"character",
+         "name":"Iron Emmett",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"thenightswatch",
+         "loyal":false,
+         "cost":6,
+         "icons":{
+            "military":true,
+            "intrigue":false,
+            "power":true
+         },
+         "strength":5,
+         "traits":[
+            "Army."
+         ],
+         "text":"Intimidate. No Attachments except <i>Weapon</i>.\n",
+         "deckLimit":3,
+         "illustrator":"Caiomm"
+      },
+      {
+         "code":"50072",
+         "type":"attachment",
+         "name":"Builder's Hammer",
+         "octgnId":"",
+         "quantity":3,
+         "unique":false,
+         "faction":"thenightswatch",
+         "loyal":false,
+         "cost":0,
+         "traits":[
+            "Item.",
+            "Weapon."
+         ],
+         "text":"Bestow (3).\n<b>Reaction:</b> After you win a challenge in which attached character is defending, kneel Builder's Hammer and discard 1 gold from it to search the top 10 cards of your deck for a [thenightswatch] location or attachment, reveal it and add it to your hand. Shuffle your deck.",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50073",
+         "type":"character",
+         "name":"Barbrey Dustin",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"stark",
+         "loyal":false,
+         "cost":4,
+         "icons":{
+            "military":false,
+            "intrigue":true,
+            "power":true
+         },
+         "strength":4,
+         "traits":[
+            "House Dustin.",
+            "Lady."
+         ],
+         "text":"While Barbrey Dustin is standing, players cannot trigger abilities on <i>Maester</i> characters.",
+         "deckLimit":3,
+         "illustrator":"Valeriya Dryzhack"
+      },
+      {
+         "code":"50074",
+         "type":"character",
+         "name":"Bastard's Boys",
+         "octgnId":"",
+         "quantity":3,
+         "unique":false,
+         "faction":"stark",
+         "loyal":false,
+         "cost":2,
+         "icons":{
+            "military":true,
+            "intrigue":true,
+            "power":false
+         },
+         "strength":3,
+         "traits":[
+            "Ally.",
+            "House Bolton."
+         ],
+         "text":"<b>Forced reaction:</b>After you win a challenge in which Bastard's Boys is participating, sacrifice Bastard's Boys.",
+         "deckLimit":3,
+         "illustrator":"Stefan Kopinski"
+      },
+      {
+         "code":"50075",
+         "type":"character",
+         "name":"Alaric of Eysen",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"tyrell",
+         "loyal":false,
+         "cost":4,
+         "icons":{
+            "military":false,
+            "intrigue":true,
+            "power":true
+         },
+         "strength":3,
+         "traits":[
+            "Minstrel."
+         ],
+         "text":"<b>Reaction:</b>After Alaric of Eysen enters play, search your deck for a <i>Song</i> event, reveal it and add it to your hand. Shuffle your deck.",
+         "deckLimit":3,
+         "illustrator":"Grafit Studio"
+      },
+      {
+         "code":"50076",
+         "type":"location",
+         "name":"Redwyne Fleet",
+         "octgnId":"",
+         "quantity":3,
+         "unique":false,
+         "faction":"tyrell",
+         "loyal":false,
+         "cost":1,
+         "traits":[
+            "Warship."
+         ],
+         "text":"<b>Reaction:</b>After you win a challenge in which you control a character that is attacking or defending alone, sacrifice Redwyne Fleet to choose and stand that character. Gain 1 gold.",
+         "deckLimit":3,
+         "illustrator":"Flavio Bolla"
+      },
+      {
+         "code":"50077",
+         "type":"character",
+         "name":"Rylona Rhee",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"targaryen",
+         "loyal":false,
+         "cost":2,
+         "icons":{
+            "military":false,
+            "intrigue":true,
+            "power":false
+         },
+         "strength":2,
+         "traits":[
+            "Companion.",
+            "Minstrel."
+         ],
+         "text":"<b>Reaction:</b>After a <i>Song</i> event is placed in your discard pile, pay 1 gold to shuffle it into your deck.",
+         "deckLimit":3,
+         "illustrator":"Daniel Gerhartz"
+      },
+      {
+         "code":"50078",
+         "type":"event",
+         "name":"Born out of fire",
+         "octgnId":"",
+         "quantity":3,
+         "unique":false,
+         "faction":"targaryen",
+         "loyal":true,
+         "cost":0,
+         "traits":[
+         ],
+         "text":"Limited.\n<b>Action:</b>Reduce the cost of the first <i>Dragon</i> character you marshal or ambush this phase by 4.",
+         "deckLimit":3,
+         "illustrator":"Jose Raul Cruz Juarez"
+      },
+      {
+         "code":"50079",
+         "type":"character",
+         "name":"Lewys the Fishwife",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"baratheon",
+         "loyal":false,
+         "cost":3,
+         "icons":{
+            "military":true,
+            "intrigue":false,
+            "power":true
+         },
+         "strength":3,
+         "traits":[
+            "Smuggler.",
+            "The Seven."
+         ],
+         "text":"Ambush (3).\n<b>Reaction:</b>After Lewis the Fishwife enters play, choose a <i>Lord</i> or <i>Lady</i> character with power. Until the end of the phase, treat that character as if its printed text box were blank (except for <i>Traits</i>).",
+         "deckLimit":3,
+         "illustrator":"Grafit Studio"
+      },
+      {
+         "code":"50080",
+         "type":"location",
+         "name":"Storm's End",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"baratheon",
+         "loyal":true,
+         "cost":2,
+         "traits":[
+            "Stronghold."
+         ],
+         "text":"<b>Reaction:</b>After a character or location card you control gains power, draw 1 card. (Limit twice per round).",
+         "deckLimit":3,
+         "illustrator":"Feliche"
       }
    ]
 }
