@@ -1205,36 +1205,35 @@
          "illustrator":"Unknown"
       },
       {
-         "claim":1,
          "code":"50061",
-         "deck_limit":1,
-         "faction_code":"neutral",
+         "deckLimit":1,
+         "faction":"neutral",
          "flavor":"",
          "illustrator":"Castlevania Lords of Shadows 2",
-         "income":3,
-         "initiative":4,
          "is_loyal":false,
          "is_unique":false,
          "name":"City of Shadow",
          "octgn_id":"",
          "quantity":3,
-         "reserve":7,
          "text":"<b>When Revealed:</b> Choose up to 2 cards in your hand and place them facedown in shadows with a shadow token on them. While those cards are in shadows, if they do not have the printed shadow keyword, they gain shadow (X). X is their printed card cost.",
          "traits":[
             "City",
             "Scheme"
          ],
-         "type_code":"plot"
+         "type":"plot",
+         "plotStats":{
+            "income":3,
+            "initiative":7,
+            "claim":1,
+            "reserve":6
+         }
       },
       {
-         "claim":1,
          "code":"50062",
-         "deck_limit":2,
-         "faction_code":"neutral",
+         "deckLimit":2,
+         "faction":"neutral",
          "flavor":"",
          "illustrator":"Unknown",
-         "income":4,
-         "initiative":6,
          "is_loyal":false,
          "is_unique":false,
          "name":"The Hand's Reign",
@@ -1246,7 +1245,13 @@
             "Edict",
             "Kingdom"
          ],
-         "type_code":"plot"
+         "plotStats":{
+            "income":4,
+            "initiative":6,
+            "claim":1,
+            "reserve":6
+         },
+         "type":"plot"
       },
       {
          "code":"50063",
@@ -1615,6 +1620,5 @@
          "deckLimit":3,
          "illustrator":"Feliche"
       }
-
    ]
 }
