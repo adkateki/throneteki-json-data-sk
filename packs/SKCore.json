@@ -1221,8 +1221,8 @@
          "reserve":7,
          "text":"<b>When Revealed:</b> Choose up to 2 cards in your hand and place them facedown in shadows with a shadow token on them. While those cards are in shadows, if they do not have the printed shadow keyword, they gain shadow (X). X is their printed card cost.",
          "traits":[
-            "City.",
-            "Scheme."
+            "City",
+            "Scheme"
          ],
          "type_code":"plot"
       },
@@ -1243,8 +1243,8 @@
          "reserve":8,
          "text":"<b>Forced Reaction:</b> After a player plays an event, that player's opponents may draw 1 card and gain 1 power for his or her faction.",
          "traits":[
-            "Edict.",
-            "Kingdom."
+            "Edict",
+            "Kingdom"
          ],
          "type_code":"plot"
       },
@@ -1259,8 +1259,8 @@
          "loyal":false,
          "cost":2,
          "traits":[
-            "House Tarth.",
-            "Westeros."
+            "House Tarth",
+            "Westeros"
          ],
          "text":"<b>Reaction:</b>After you play a <i>Song</i> event, draw 1 card. (Limit twice per round).",
          "deckLimit":3,
@@ -1277,7 +1277,7 @@
          "loyal":false,
          "cost":1,
          "traits":[
-            "Cat."
+            "Cat"
          ],
          "text":"Non-loyal unique character with printed cost 3 or lower only. Ambush (2).\nAttached character gains a [power] icon and intimidate.<b>Forced Interrupt:</b> When the challenges phase ends, sacrifice Big, Black Tomcat.",
          "deckLimit":3,
@@ -1300,8 +1300,8 @@
          },
          "strength":2,
          "traits":[
-            "Bastard.",
-            "Companion."
+            "Bastard",
+            "Companion"
          ],
          "text":"<b>Interrupt:</b>When a <i>Warship</i> location leaves play, sacrifice Falia Flowers to return that location to your hand instead of placing it in your discard pile.",
          "deckLimit":3,
@@ -1318,7 +1318,7 @@
          "loyal":true,
          "cost":2,
          "traits":[
-            "Iron Islands."
+            "Iron Islands"
          ],
          "text":"<b>Interrupt:</b>When you compare initiative, kneel Orkmont to give your revealed plot card +1 initiative until the end of the phase (+3 initiative instead if that plot card has the <i>Winter</i> trait). Then, if you win initiative, draw 1 card from the bottom of your deck.",
          "deckLimit":3,
@@ -1341,7 +1341,7 @@
          },
          "strength":4,
          "traits":[
-            "Army."
+            "Army"
          ],
          "text":"Intimidate. No Attachments.\nWhile Host of the Lion is attacking an opponent with fewer cards in his or her hand than you, it gets +4 STR. <b>Action:</b>Pay 3 gold to stand Host of the Lion. (Limit twice per phase)",
          "deckLimit":3,
@@ -1358,7 +1358,7 @@
          "loyal":false,
          "cost":1,
          "traits":[
-            "Cat."
+            "Cat"
          ],
          "text":"Unique character with printed cost 3 or lower only. Ambush (1).\nAttached character gains a [military] icon and does not kneel when declared as an attacker in a [military] challenge.",
          "deckLimit":3,
@@ -1381,8 +1381,8 @@
          },
          "strength":4,
          "traits":[
-            "House Manwoody.",
-            "Knight."
+            "House Manwoody",
+            "Knight"
          ],
          "text":"While you are not the first player, Ser Myles Manwoody does not kneel when declared as an attacker.",
          "deckLimit":3,
@@ -1399,7 +1399,7 @@
          "loyal":false,
          "cost":1,
          "traits":[
-            "Dorne."
+            "Dorne"
          ],
          "text":"Bestow (3).\n<b>Action:</b> Discard 1 gold from Planky Town to choose an attachment you control. Return that attachment to its owner's hand.",
          "deckLimit":3,
@@ -1422,7 +1422,7 @@
          },
          "strength":5,
          "traits":[
-            "Army."
+            "Army"
          ],
          "text":"Intimidate. No Attachments except <i>Weapon</i>.\n",
          "deckLimit":3,
@@ -1439,8 +1439,8 @@
          "loyal":false,
          "cost":0,
          "traits":[
-            "Item.",
-            "Weapon."
+            "Item",
+            "Weapon"
          ],
          "text":"Bestow (3).\n<b>Reaction:</b> After you win a challenge in which attached character is defending, kneel Builder's Hammer and discard 1 gold from it to search the top 10 cards of your deck for a [thenightswatch] location or attachment, reveal it and add it to your hand. Shuffle your deck.",
          "deckLimit":3,
@@ -1463,8 +1463,8 @@
          },
          "strength":4,
          "traits":[
-            "House Dustin.",
-            "Lady."
+            "House Dustin",
+            "Lady"
          ],
          "text":"While Barbrey Dustin is standing, players cannot trigger abilities on <i>Maester</i> characters.",
          "deckLimit":3,
@@ -1487,8 +1487,8 @@
          },
          "strength":3,
          "traits":[
-            "Ally.",
-            "House Bolton."
+            "Ally",
+            "House Bolton"
          ],
          "text":"<b>Forced reaction:</b>After you win a challenge in which Bastard's Boys is participating, sacrifice Bastard's Boys.",
          "deckLimit":3,
@@ -1511,7 +1511,7 @@
          },
          "strength":3,
          "traits":[
-            "Minstrel."
+            "Minstrel"
          ],
          "text":"<b>Reaction:</b>After Alaric of Eysen enters play, search your deck for a <i>Song</i> event, reveal it and add it to your hand. Shuffle your deck.",
          "deckLimit":3,
@@ -1528,7 +1528,7 @@
          "loyal":false,
          "cost":1,
          "traits":[
-            "Warship."
+            "Warship"
          ],
          "text":"<b>Reaction:</b>After you win a challenge in which you control a character that is attacking or defending alone, sacrifice Redwyne Fleet to choose and stand that character. Gain 1 gold.",
          "deckLimit":3,
@@ -1551,8 +1551,8 @@
          },
          "strength":2,
          "traits":[
-            "Companion.",
-            "Minstrel."
+            "Companion",
+            "Minstrel"
          ],
          "text":"<b>Reaction:</b>After a <i>Song</i> event is placed in your discard pile, pay 1 gold to shuffle it into your deck.",
          "deckLimit":3,
@@ -1591,8 +1591,8 @@
          },
          "strength":3,
          "traits":[
-            "Smuggler.",
-            "The Seven."
+            "Smuggler",
+            "The Seven"
          ],
          "text":"Ambush (3).\n<b>Reaction:</b>After Lewis the Fishwife enters play, choose a <i>Lord</i> or <i>Lady</i> character with power. Until the end of the phase, treat that character as if its printed text box were blank (except for <i>Traits</i>).",
          "deckLimit":3,
@@ -1609,11 +1609,12 @@
          "loyal":true,
          "cost":2,
          "traits":[
-            "Stronghold."
+            "Stronghold"
          ],
          "text":"<b>Reaction:</b>After a character or location card you control gains power, draw 1 card. (Limit twice per round).",
          "deckLimit":3,
          "illustrator":"Feliche"
       }
+
    ]
 }
