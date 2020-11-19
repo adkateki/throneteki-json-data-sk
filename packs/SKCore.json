@@ -1325,7 +1325,7 @@
          "traits":[
             "Iron Islands"
          ],
-         "text":"<b>Interrupt:</b>When you compare initiative, kneel Orkmont to give your revealed plot card +1 initiative until the end of the phase (+3 initiative instead if that plot card has the <i>Winter</i> trait). Then, if you win initiative, draw 1 card from the bottom of your deck.",
+         "text":"<b>Interrupt:</b>When you compare initiative, kneel Orkmont to have your revealed plot card get +1 initiative until the end of the phase (+3 initiative instead if that plot card has the <i>Winter</i> trait). If you win initiative this phase, add the bottom of your deck to your hand.",
          "deckLimit":3,
          "illustrator":"Olena Nemitkova"
       },
@@ -1427,7 +1427,7 @@
          },
          "strength":5,
          "traits":[
-            "Army"
+            "Ranger"
          ],
          "text":"Intimidate. No Attachments except <i>Weapon</i>.\n",
          "deckLimit":3,
