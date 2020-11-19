@@ -1230,7 +1230,7 @@
       },
       {
          "code":"50062",
-         "deckLimit":2,
+         "deckLimit":1,
          "faction":"neutral",
          "flavor":"",
          "illustrator":"Unknown",
@@ -1249,7 +1249,7 @@
             "income":4,
             "initiative":6,
             "claim":1,
-            "reserve":6
+            "reserve":8
          },
          "type":"plot"
       },
