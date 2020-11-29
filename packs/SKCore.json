@@ -1308,7 +1308,7 @@
             "Bastard",
             "Companion"
          ],
-         "text":"<b>Interrupt:</b>When a <i>Warship</i> location leaves play, sacrifice Falia Flowers to return that location to your hand instead of placing it in your discard pile.",
+         "text":"<b>Interrupt:</b>When a <i>Warship</i> location is discarded play, sacrifice Falia Flowers to return that location to your hand instead of placing it in your discard pile.",
          "deckLimit":3,
          "illustrator":"Tatiana Hordiienko"
       },
