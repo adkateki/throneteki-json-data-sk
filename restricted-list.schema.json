@@ -63,10 +63,20 @@
             "version": {
                 "type": "string"
             },
+            "code": {
+                "type": "string"
+            },
             "issuer": {
                 "enum": [
                     "Fantasy Flight Games",
-                    "The Conclave"
+                    "The Conclave",
+                    "Redesigns"
+                ]
+            },
+            "cardSet": {
+                "enum": [
+                    "original",
+                    "redesign"
                 ]
             }
         },
@@ -75,7 +85,9 @@
             "date",
             "formats",
             "version",
-            "issuer"
+            "issuer",
+            "cardSet",
+            "code"
         ]
     }
 }
