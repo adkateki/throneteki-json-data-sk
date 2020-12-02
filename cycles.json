@@ -149,5 +149,19 @@
         "packs": [
             "TTWDFL"
         ]
+    },
+    {
+        "id": "redesigns",
+        "name": "Redesigns",
+        "packs": [
+            "R"
+        ]
+    },
+    {
+        "id": "forgotten",
+        "name": "Forgotten Heroes",
+        "packs": [
+            "FH"
+        ]
     }
 ]
