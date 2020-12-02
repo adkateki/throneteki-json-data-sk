@@ -163,12 +163,6 @@
         "packs": [
             "R"
         ]
-    },
-    {
-        "id": "forgotten",
-        "name": "Forgotten Heroes",
-        "packs": [
-            "FH"
-        ]
     }
+
 ]
