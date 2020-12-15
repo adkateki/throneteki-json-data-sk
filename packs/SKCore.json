@@ -885,6 +885,7 @@
          "code":"50045",
          "type":"character",
          "name":"King Balon's Host",
+         "loyal":true,
          "octgnId":"",
          "quantity":3,
          "unique":true,
@@ -1060,7 +1061,7 @@
             "House Reed",
             "The North"
          ],
-         "text":"<b>Action:</b>Kneel Greywater Watch to choose a [stark] character you control, and kneel that character to have it participate in the challenge on your side.",
+         "text":"<b>Action:</b>Kneel Greywater Watch and a [stark] character you control to have that character to participate in the challenge on your side.",
          "deckLimit":3,
          "illustrator":"Unknown"
       },
