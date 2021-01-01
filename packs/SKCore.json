@@ -727,7 +727,7 @@
          "quantity":3,
          "unique":false,
          "faction":"targaryen",
-         "loyal":true,
+         "loyal":false,
          "cost":4,
          "icons":{
             "military":true,
