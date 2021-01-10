@@ -69,6 +69,7 @@
             "issuer": {
                 "enum": [
                     "Fantasy Flight Games",
+                    "National Circuit",
                     "The Conclave",
                     "Redesigns"
                 ]
