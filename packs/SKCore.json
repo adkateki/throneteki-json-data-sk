@@ -2000,7 +2000,7 @@
          "loyal":false,
          "unique":true,
          "faction":"baratheon",
-         "cost":3,
+         "cost":5,
          "icons":{
             "military": true,
             "intrigue": false,
