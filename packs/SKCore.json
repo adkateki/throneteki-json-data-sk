@@ -1665,7 +1665,7 @@
          "faction":"neutral",
          "cost":5,
          "icons":{
-            "military":true,
+            "military":false,
             "intrigue":true,
             "power":true
          },
