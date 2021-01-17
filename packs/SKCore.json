@@ -1631,7 +1631,7 @@
          "traits":[
             
          ],
-         "text":"You cannot include <i>Kingdom</i> plot cards in your plot deck.\n <b>Reaction:</b> After you marshal a <i>Bastard</i>, <i>Companion</i> or <i>Mercenary</i> character, reduce the cost of the next <i>Bastard</i>, <i>Companion</i> or <i>Mercenary</i> character you marshal this phase by 1.",
+         "text":"You cannot include <i>Kingdom</i> plot cards in your plot deck.\n <b>Reaction:</b> After you marshal a <i>Bastard</i>, <i>Companion</i> or <i>Mercenary</i> character, reduce the cost of <i>Bastard</i>, <i>Companion</i> or <i>Mercenary</i> characters you marshal this phase by 1.",
          "deckLimit":1,
          "illustrator":"Reaprycon"
       },
