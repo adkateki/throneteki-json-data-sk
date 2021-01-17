@@ -1620,6 +1620,416 @@
          "text":"<b>Reaction:</b>After a character or location card you control gains power, draw 1 card. (Limit twice per round).",
          "deckLimit":3,
          "illustrator":"Feliche"
+      },
+      {
+         "code":"50081",
+         "type":"agenda",
+         "name":"The Golden Company",
+         "octgnId":"",
+         "quantity":1,
+         "faction":"neutral",
+         "traits":[
+            
+         ],
+         "text":"You cannot include <i>Kingdom</i> plot cards in your plot deck.\n <b>Reaction:</b> After you marshal a <i>Bastard</i>, <i>Companion</i> or <i>Mercenary</i> character, reduce the cost of the next <i>Bastard</i>, <i>Companion</i> or <i>Mercenary</i> character you marshal this phase by 1.",
+         "deckLimit":1,
+         "illustrator":"Reaprycon"
+      },
+      {
+         "code":"50082",
+         "type":"plot",
+         "name":"Destroyed Bridge",
+         "octgnId":"",
+         "quantity":1,
+         "faction":"neutral",
+         "plotStats":{
+            "income":3,
+            "initiative":9,
+            "claim":1,
+            "reserve":5
+         },
+         "traits":[
+            "Edict"
+         ],
+         "text":"<b>When Revealed:</b> Kneel each location with printed cost 2 or lower.",
+         "deckLimit":1,
+         "illustrator":"Caroline Souey"
+      },
+      {
+         "code":"50083",
+         "type":"character",
+         "name":"Lady Stoneheart",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"neutral",
+         "cost":5,
+         "icons":{
+            "military":true,
+            "intrigue":true,
+            "power":true
+         },
+         "strength":4,
+         "traits":[
+            "Brotherhood",
+            "R'hllor"
+         ],
+         "text":"While you control no loyal characters, Lady Stoneheart gains intimidate.\n<b>Interrupt:</b> When a <i>R'hllor</i> or <i>Brotherhood</i> character you control would be killed, put Lady Stoneheart into play from your dead pile. Until the end of the phase, raise the claim value on your revealed plot card by 1.",
+         "deckLimit":3,
+         "illustrator":"zippo514"
+      },
+      {
+         "code":"50084",
+         "type":"character",
+         "name":"Robert Arryn",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"neutral",
+         "cost":1,
+         "icons":{
+            "military": false,
+            "intrigue": false,
+            "power": false
+         },
+         "strength":1,
+         "traits":[
+            "House Arryn",
+            "Lord"
+         ],
+         "text":"<b>Reaction:</b> When a Lady character enters play Robert Arryn gains 1 power. (Limit once per phase.)",
+         "deckLimit":3,
+         "illustrator":"artofjustaman"
+      },
+      {
+         "code":"50085",
+         "type":"attachment",
+         "name":"Nightfall",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"greyjoy",
+         "loyal":false,
+         "cost":1,
+         "traits":[
+            "Valyrian Steel",
+            "Weapon"
+         ],
+         "text":"[greyjoy] character only. If attached character is The Knight, he gains pillage. \n<b>Reaction:</b>: After you win an unopposed challenge in which attached character is attacking, choose a character. Until the end of the phase, that character cannot be declared as a defender.",
+         "deckLimit":3,
+         "illustrator":"Diego Gisbert"
+      },
+      {
+         "code":"50086",
+         "type":"location",
+         "name":"Lordsport",
+         "octgnId":"",
+         "quantity":3,
+         "loyal":true,
+         "unique":true,
+         "faction":"greyjoy",
+         "cost":3,
+         "traits":[
+            "Iron Islands"
+         ],
+         "text":"<b>Action:</b> Kneel Lordsport to put a [greyjoy] attachment into play from your hand or discard pile (Limit once per round).",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50087",
+         "type":"character",
+         "name":"Ser Kevan Lannister",
+         "octgnId":"",
+         "quantity":3,
+         "loyal":true,
+         "unique":true,
+         "faction":"lannister",
+         "cost":7,
+         "icons":{
+            "military": true,
+            "intrigue": true,
+            "power": true
+         },
+         "strength":5,
+         "traits":[
+            "Knight",
+            "Lord",
+            "Small Council"
+         ],
+         "text":"Insight.\n<b>Reaction:</b> After a [lannister] attachmment or location enters play under your control, stand Ser Kevan Lannister. (Limit twice per phase.)",
+         "deckLimit":3,
+         "illustrator":"artofjustaman"
+      },
+      {
+         "code":"50088",
+         "type":"character",
+         "name":"Ser Addam Marbrand",
+         "octgnId":"",
+         "quantity":3,
+         "loyal":false,
+         "unique":true,
+         "faction":"lannister",
+         "cost":4,
+         "icons":{
+            "military": true,
+            "intrigue": false,
+            "power": false
+         },
+         "strength":4,
+         "traits":[
+            "Knight"
+         ],
+         "text":"Renown.\nWhile you have more cards in hand than each opponent. Ser Addam Marbrand gains in [int] and [power] icon.",
+         "deckLimit":3,
+         "illustrator":"Viko Menezes"
+      },
+      {
+         "code":"50089",
+         "type":"character",
+         "name":"House Uller Guard",
+         "octgnId":"",
+         "quantity":3,
+         "loyal":false,
+         "unique":false,
+         "faction":"martell",
+         "cost":4,
+         "icons":{
+            "military": true,
+            "intrigue": true,
+            "power": false
+         },
+         "strength":3,
+         "traits":[
+            "Guard",
+            "House Uller"
+         ],
+         "text":"No attachments except <i>Weapon</i>.\nEach <i>Guard</i> character you control gets +1 STR.",
+         "deckLimit":3,
+         "illustrator":"Diego Gisbert"
+      },
+      {
+         "code":"50090",
+         "type":"event",
+         "name":"We Guard The Way",
+         "octgnId":"",
+         "quantity":3,
+         "faction":"martell",
+         "loyal":true,
+         "cost":2,
+         "traits":[
+            
+         ],
+         "text":"<b>Reaction:</b> After you lose a challenge, choose a participating characters with STR X or lower. Return it to its owner's hand. (Cannot be saved.) X is the number of plot cards in your used pile.",
+         "deckLimit":3,
+         "illustrator":"Tomasz Jedruszek"
+      },
+      {
+         "code":"50091",
+         "type":"character",
+         "name":"Shadow Tower Ranger",
+         "octgnId":"",
+         "quantity":3,
+         "loyal":false,
+         "unique":false,
+         "faction":"thenightswatch",
+         "cost":2,
+         "icons":{
+            "military": true,
+            "intrigue": false,
+            "power": false
+         },
+         "strength":2,
+         "traits":[
+            "Ranger"
+         ],
+         "text":"No attachments except <i>Weapon</i>.\n<b>Action:</b> Kneel Shadow Tower Ranger to choose a [thenightswatch] character. Until the end of the phase, that character gets +X STR. X is Shadow Tower Ranger's STR. (Limit once per round.)",
+         "deckLimit":3,
+         "illustrator":"CMON"
+      },
+      {
+         "code":"50092",
+         "type":"character",
+         "name":"Kegs",
+         "octgnId":"",
+         "quantity":3,
+         "loyal":false,
+         "unique":true,
+         "faction":"thenightswatch",
+         "cost":4,
+         "icons":{
+            "military": false,
+            "intrigue": false,
+            "power": true
+         },
+         "strength":4,
+         "traits":[
+            "Builder"
+         ],
+         "text":"<b>Reaction:</b> After Kegs enters play, search the top 10 cards of your deck for a <i>Weapon</i> attachment and put it into play. Suffle your deck.",
+         "deckLimit":3,
+         "illustrator":"CMON"
+      },
+      {
+         "code":"50093",
+         "type":"character",
+         "name":"Reek",
+         "octgnId":"",
+         "quantity":3,
+         "loyal":false,
+         "unique":true,
+         "faction":"stark",
+         "cost":2,
+         "icons":{
+            "military": false,
+            "intrigue": false,
+            "power": false
+         },
+         "strength":4,
+         "traits":[
+            "Ally",
+            "House Bolton"
+         ],
+         "text":"If you control Theon Greyjoy, sacrifice Reek.\n<b>Interrupt:</b> After another character you control is sacrificed, sacrifice Reek to return that character to its owner's hand instead of placing it in its owner's discard pile..",
+         "deckLimit":3,
+         "illustrator":"GibiLynx"
+      },
+      {
+         "code":"50094",
+         "type":"event",
+         "name":"Our Blades Are Sharp",
+         "octgnId":"",
+         "quantity":3,
+         "faction":"stark",
+         "loyal":false,
+         "cost":0,
+         "traits":[
+            "House Bolton"
+         ],
+         "text":"<b>Reaction:</b> When a <i>House Bolton</i> character you control is sacrificed or killed, choose a character. Until the end of the phase, that character gains (choose one): stealth, renown, intimidate or +3 STR.",
+         "deckLimit":3,
+         "illustrator":"Tomasz Jedruszek"
+      },
+      {
+         "code":"50095",
+         "type":"character",
+         "name":"Arbor Brewmaster",
+         "octgnId":"",
+         "quantity":3,
+         "loyal":false,
+         "unique":false,
+         "faction":"tyrell",
+         "cost":2,
+         "icons":{
+            "military": false,
+            "intrigue": false,
+            "power": true
+         },
+         "strength":2,
+         "traits":[
+            "Ally",
+            "House Redwyne"
+         ],
+         "text":"<b>Reaction:</b> After Arbor Brewmaster leaves play, choose a character. Until the end of the phase, that character gets +1 STR. Gain 1 gold.",
+         "deckLimit":3,
+         "illustrator":"Walt Curlee"
+      },
+      {
+         "code":"50096",
+         "type":"event",
+         "name":"\"Fair Maids Of Summer\"",
+         "octgnId":"",
+         "quantity":3,
+         "unique":false,
+         "faction":"tyrell",
+         "loyal":false,
+         "cost":0,
+         "traits":[
+            "Song"
+         ],
+         "text":"<b>Action:</b>Kneel your faction card. Until the end of phase, your revealed plot card gains the <i>Summer</i> trait Draw 1 card.",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50097",
+         "type":"character",
+         "name":"Yezzan Zo Qaggaz",
+         "octgnId":"",
+         "quantity":3,
+         "loyal":false,
+         "unique":true,
+         "faction":"targaryen",
+         "cost":3,
+         "icons":{
+            "military": false,
+            "intrigue": true,
+            "power": true
+         },
+         "strength":2,
+         "traits":[
+            "Ally"
+         ],
+         "text":"Bestow (2). \n<b>Reaction:</b> During a challenge in which Yezzan Zo Qaggaz is participating discard 1 gold from him to put an <i>Ally</i> or <i>Mercenary</i> character from your discard pile into play knelt participating on your side. At the end of the challenge, if that card is still in play, place it on the bottom of your deck.",
+         "deckLimit":3,
+         "illustrator":"Paul Phillips"
+      },
+      {
+         "code":"50098",
+         "type":"location",
+         "name":"The Horse Gate",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"targaryen",
+         "loyal":true,
+         "cost":2,
+         "traits":[
+            "Essos"
+         ],
+         "text":"Bestow (2). \n<b>Interrupt:</b> When a <i>Bloodrider</i> character would be returned to your hand, kneel The Horse Gate and discard 1 gold from The Horse Gate to save it.",
+         "deckLimit":3,
+         "illustrator":"Kim Pope"
+      },
+      {
+         "code":"50099",
+         "type":"character",
+         "name":"Ser Richard Horpe",
+         "octgnId":"",
+         "quantity":3,
+         "loyal":false,
+         "unique":true,
+         "faction":"baratheon",
+         "cost":3,
+         "icons":{
+            "military": true,
+            "intrigue": false,
+            "power": true
+         },
+         "strength":5,
+         "traits":[
+            "Knight"
+         ],
+         "text":"While Ser Richard Horpe has 1 or more power, he gains renown.. \n<b>Action:</b> Move 1 power from a character you control to another character in play. (Limit once per phase.)",
+         "deckLimit":3,
+         "illustrator":"CMON"
+      },
+      {
+         "code":"50100",
+         "type":"attachment",
+         "name":"Hunting Spear",
+         "octgnId":"",
+         "quantity":3,
+         "unique":false,
+         "faction":"baratheon",
+         "loyal":false,
+         "cost":1,
+         "traits":[
+            "Weapon"
+         ],
+         "text":"Attached character gets +X STR. X is the number of power attached character has.",
+         "deckLimit":3,
+         "illustrator":"Krystian Denisiuk"
       }
    ]
 }
