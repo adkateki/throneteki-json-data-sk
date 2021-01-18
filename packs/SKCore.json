@@ -1697,7 +1697,7 @@
             "House Arryn",
             "Lord"
          ],
-         "text":"<b>Reaction:</b> When a Lady character enters play Robert Arryn gains 1 power. (Limit once per phase.)",
+         "text":"<b>Reaction:</b> When a Lady character enters play Robert Arryn gains 1 power. (Limit once per round.)",
          "deckLimit":3,
          "illustrator":"artofjustaman"
       },
