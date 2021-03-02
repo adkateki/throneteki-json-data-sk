@@ -1628,10 +1628,10 @@
          "octgnId":"",
          "quantity":1,
          "faction":"neutral",
-         "traits":[
-            
+         "traits": [
+             "Banner"
          ],
-         "text":"You cannot include <i>Kingdom</i> plot cards in your plot deck.\n <b>Reaction:</b> After you marshal a <i>Bastard</i>, <i>Companion</i> or <i>Mercenary</i> character, reduce the cost of the next <i>Bastard</i>, <i>Companion</i> or <i>Mercenary</i> character you marshal this phase by 1.",
+         "text":"You cannot include <i>Kingdom</i> plot cards in your plot deck.\n <b>Reaction:</b> After you marshal a <i>Bastard</i>, <i>Companion</i> or <i>Mercenary</i> character, reduce the cost of <i>Bastard</i>, <i>Companion</i> or <i>Mercenary</i> characters you marshal this phase by 1.",
          "deckLimit":1,
          "illustrator":"Reaprycon"
       },
@@ -1665,7 +1665,7 @@
          "faction":"neutral",
          "cost":5,
          "icons":{
-            "military":true,
+            "military":false,
             "intrigue":true,
             "power":true
          },
@@ -1970,7 +1970,7 @@
          "traits":[
             "Ally"
          ],
-         "text":"Bestow (2). \n<b>Reaction:</b> During a challenge in which Yezzan Zo Qaggaz is participating discard 1 gold from him to put an <i>Ally</i> or <i>Mercenary</i> character from your discard pile into play knelt participating on your side. At the end of the challenge, if that card is still in play, place it on the bottom of your deck.",
+         "text":"Bestow (2). \n<b>Action:</b> During a challenge in which Yezzan Zo Qaggaz is participating discard 1 gold from him to put an <i>Ally</i> or <i>Mercenary</i> character from your discard pile into play knelt participating on your side. At the end of the challenge, if that card is still in play, place it on the bottom of your deck.",
          "deckLimit":3,
          "illustrator":"Paul Phillips"
       },
@@ -2000,7 +2000,7 @@
          "loyal":false,
          "unique":true,
          "faction":"baratheon",
-         "cost":3,
+         "cost":5,
          "icons":{
             "military": true,
             "intrigue": false,
