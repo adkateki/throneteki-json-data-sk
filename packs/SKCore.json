@@ -1674,7 +1674,7 @@
             "Brotherhood",
             "R'hllor"
          ],
-         "text":"While you control no loyal characters, Lady Stoneheart gains intimidate.\n<b>Interrupt:</b> When a <i>R'hllor</i> or <i>Brotherhood</i> character you control would be killed, put Lady Stoneheart into play from your dead pile. Until the end of the phase, raise the claim value on your revealed plot card by 1.",
+         "text":"While you control no loyal characters, Lady Stoneheart gains intimidate.\n<b>Interrupt:</b> When a <i>R'hllor</i> or <i>Brotherhood</i> character you control is killed, put Lady Stoneheart into play from your dead pile. Then, raise the claim value on your revealed plot card by 1 until the end of the phase.",
          "deckLimit":3,
          "illustrator":"zippo514"
       },
@@ -2030,6 +2030,418 @@
          "text":"Attached character gets +X STR. X is the number of power attached character has.",
          "deckLimit":3,
          "illustrator":"Krystian Denisiuk"
+      },
+      {
+         "code":"50101",
+         "type":"plot",
+         "name":"Thriving on Chaos",
+         "octgnId":"",
+         "quantity":3,
+         "faction":"neutral",
+         "plotStats":{
+            "income":3,
+            "initiative":1,
+            "claim":1,
+            "reserve":7
+         },
+         "traits":[
+            "Scheme"
+         ],
+         "text":"<b>When Revealed:</b> Draw X cards. X is the number of kneeling characters and locations you control",
+         "deckLimit":1,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50102",
+         "type":"plot",
+         "name":"The Cold Decides",
+         "octgnId":"",
+         "quantity":3,
+         "faction":"neutral",
+         "plotStats":{
+            "income":3,
+            "initiative":1,
+            "claim":2,
+            "reserve":4
+         },
+         "traits":[
+            "Winter"
+         ],
+         "text":"While you are not the first player, increase the gold value on your revealed plot card by 3.",
+         "deckLimit":2,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50103",
+         "type":"character",
+         "name":"Ryk",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"neutral",
+         "cost":2,
+         "icons":{
+            "military":true,
+            "intrigue":true,
+            "power":false
+         },
+         "strength":3,
+         "traits":[
+            "Wildiling"
+         ],
+         "text":"Ambush(4)\n<b>Reaction:</b> After Ryk enters play, choose another <i>Wildiling</i> character. That character gains stealth until the end of the phase.",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50104",
+         "type":"event",
+         "name":"Face of Dead",
+         "octgnId":"",
+         "quantity":3,
+         "faction":"neutral",
+         "cost":"X",
+         "traits":[
+            "Faceless"
+         ],
+         "text":"<b>Action:</b> Put the top character from any player's dead pile into play under your control. X is that card's printed cost. Then, attach Face of Dead to that character as a <i>Condition</i> attachment with the text: \"Terminal. Attached character gains <i>Faceless</i> trait.\" (Max 1 per phase.)",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50105",
+         "type":"character",
+         "name":"Marauders from Pyke",
+         "octgnId":"",
+         "quantity":3,
+         "unique":false,
+         "faction":"greyjoy",
+         "loyal":false,
+         "cost":4,
+         "icons":{
+            "military":true,
+            "intrigue":false,
+            "power":true
+         },
+         "strength":4,
+         "traits":[
+            "Army",
+            "Raider"
+         ],
+         "text":"No attachments.\nWhile you are the first player, Marauder from Pyke gains stealth. +1 Initiative",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50106",
+         "type":"event",
+         "name":"Reave and Pillage",
+         "octgnId":"",
+         "quantity":3,
+         "faction":"greyjoy",
+         "loyal":false,
+         "traits":[
+            
+         ],
+         "cost":1,
+         "text":"<b>Action:</b> Discard the top 2 cards of an opponent's deck. (4 cards instead if your are the first player.)",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50107",
+         "type":"character",
+         "name":"Tommen Baratheon",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"lannister",
+         "loyal":false,
+         "cost":3,
+         "traits":[
+            "King",
+            "Lord"
+         ],
+         "icons":{
+            "military":false,
+            "intrigue":false,
+            "power":true
+         },
+         "strength":3,
+         "text":"Reduce the cost of each <i>Cat</i> card you marshal or ambush by 1.\n<b>Interrupt:</b> When Tommen Baratheon would be killed, sacrifice a <i>Cat</i> card form play to save him. (Limit once per round)",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50108",
+         "type":"location",
+         "name":"Lannisport",
+         "octgnId":"",
+         "quantity":3,
+         "faction":"lannister",
+         "loyal":true,
+         "cost":2,
+         "traits":[
+            "The Westerlands."            
+         ],
+         "text":"Bestow (2).\nYou may spend gold on Lannisport as if it were in your gold pool.\n<b>Reaction:</b> After you win an [intrigue] challenge, move 1 gold from the treasury to Lannisport.(Limit twice per phase.)",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50109",
+         "type":"character",
+         "name":"Ser Ryon Allyrion",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"martell",
+         "loyal":false,
+         "cost":5,
+         "icons":{
+            "military":true,
+            "intrigue":true,
+            "power":false
+         },
+         "strength":5,
+         "traits":[
+            "Knight",
+            "Lord"
+         ],
+         "text":"During a challenge in which Ser Ryon Allyrion is attacking, if there are 5 or more plot cards in your used pile, raise the claim on your revealed plot card by 1 until the end of the challenge.",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50110",
+         "type":"character",
+         "name":"Sunspear Spy",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"martell",
+         "loyal":true,
+         "cost":2,
+         "traits":[
+            "Spy"
+         ],
+         "icons":{
+            "military":false,
+            "intrigue":true,
+            "power":false
+         },
+         "strength":5,
+         "text":"Shadow (6).\n Reduce the cost to bring Sunspear Spy out of shadows by 2 for each challenge you lose during this phase.\n <b>Reaction:</b> After Sunspear Spy comes out of shadows, choose a card from your discard pile and return it to your hand.",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50111",
+         "type":"character",
+         "name":"Alf of Runnymudd",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"thenightswatch",
+         "loyal":false,
+         "cost":3,
+         "icons":{
+            "military":false,
+            "intrigue":false,
+            "power":true
+         },
+         "strength":3,
+         "traits":[
+            "Builder",
+            "R'hllor"
+         ],
+         "text":"Shadow (3).\n<b>Reaction</b> After Alf of Runnymudd enters play choose an opponent. Kneel each attachment that opponent controls.",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50112",
+         "type":"attachment",
+         "name":"Old Spell for the Wall",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"thenightswatch",
+         "loyal":true,
+         "cost":3,
+         "traits":[
+            "Legacy"
+         ],
+         "text":"<b>Action:</b> During a challenge, sacrifice Old Spell for the Wall to end the challenge with no winner or loser.\n +1 Reserve.",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50113",
+         "type":"character",
+         "name":"Howland Reed",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"stark",
+         "loyal":true,
+         "cost":6,
+         "icons":{
+            "military":false,
+            "intrigue":false,
+            "power":false
+         },
+         "strength":6,
+         "traits":[
+            "House Reed",
+            "Lord"
+         ],
+         "text":"Insight.\n<b>Action:</b> During a challenge in which Howland Reed is participating,  choose ans stand a [stark] character. Then, if you control Greywater Watch, stand it (Limit once per phase.)",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50114",
+         "type":"character",
+         "name":"Crannogmen",
+         "octgnId":"",
+         "quantity":3,
+         "unique":false,
+         "faction":"stark",
+         "loyal":true,
+         "cost":2,
+         "icons":{
+            "military":true,
+            "intrigue":true,
+            "power":false
+         },
+         "strength":0,
+         "traits":[
+            "House Reed"            
+         ],
+         "text":"No attachment except <i>Weapon</i>.\n<b>Action:</b> During a challenge in which Crannogmen is participating, kneel a [stark] character to have it participating in the challenge on your side.",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50115",
+         "type":"character",
+         "name":"Leonette Fossoway",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"tyrell",
+         "loyal":false,
+         "cost":3,
+         "icons":{
+            "military":false,
+            "intrigue":true,
+            "power":true
+         },
+         "strength":3,
+         "traits":[
+            "Lady"
+         ],
+         "text":"<b>Reaction: After you play a [tyrell] event, choose and stand a <i>Lady</i> character. (Limit twice per phase.)",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50116",
+         "type":"attachment",
+         "name":"High Marshal of the Reach",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"tyrell",
+         "loyal":true,
+         "cost":2,
+         "traits":[
+            "Title"
+         ],
+         "text":"[tyrell] Lord character only.\nAttached character gets +X STR. X is number of <i>The Reach</i> locations you control.\n+1 income",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50117",
+         "type":"attachment",
+         "name":"Good Masters",
+         "octgnId":"",
+         "quantity":3,
+         "unique":false,
+         "faction":"targaryen",
+         "loyal":false,
+         "cost":1,         
+         "traits":[
+            "Title"
+         ],
+         "text":"<b>Reaction:</b> After 1 or more cards are discarded from your hand, attached character gets +2 STR until the end of the phase. (Limit 3 times per phase.)",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50118",
+         "type":"event",
+         "name":"Not a drop of blood",
+         "octgnId":"",
+         "quantity":3,
+         "unique":false,
+         "faction":"targaryen",
+         "traits":[
+            
+         ],
+         "loyal":true,
+         "cost":3,         
+         "text":"<b>Interrupt:</b> When an attachment attached to a character would leave play, kill that character (cannot be saved). (Max 1 per phase.)",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50119",
+         "type":"character",
+         "name":"King Stannis' Host",
+         "octgnId":"",
+         "quantity":3,
+         "unique":true,
+         "faction":"baratheon",
+         "loyal":false,
+         "cost":6,
+         "icons":{
+            "military":true,
+            "intrigue":false,
+            "power":true
+         },
+         "strength":4,
+         "traits":[
+            "Army"
+         ],
+         "text":"No attachments.\nWhile you control a <i>King</i> character King Stannis Host gets +4 STR.\n<b>Reaction:</b> After you win a challenge in which King Stannis Host is participatiing choose a <i>King</i> character you control. That character gains 1 power.",
+         "deckLimit":3,
+         "illustrator":"Unknown"
+      },
+      {
+         "code":"50120",
+         "type":"character",
+         "name":"Harwood Fell",
+         "octgnId":"",
+         "quantity":3,
+         "faction":"baratheon",
+         "loyal":true,
+         "cost":2,
+         "icons":{
+            "military":true,
+            "intrigue":false,
+            "power":true
+         },
+         "strength":2,
+         "traits":[
+            "Lord",
+            "R'hllor"            
+         ],
+         "text":"Shadow (2).\n<b>Reaction:</b> After Harwood Fell comes out of shadows, choose an opponent and look at his or her hand. Then, choose and discard 1 non-character card from that hand.",
+         "deckLimit":3,
+         "illustrator":"Unknown"
       }
    ]
 }
